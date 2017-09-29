@@ -1,0 +1,15 @@
+<script type='text/javascript' src='js/scripts.js'></script>
+<script type='text/javascript' src='js/gdlr-soccer.js'></script>
+<script type='text/javascript' src='js/superfish.js'></script>
+<script type='text/javascript' src='js/hoverIntent.min.js'></script>
+<script type='text/javascript' src='js/modernizr.custom.js'></script>
+<script type='text/javascript' src='js/jquery.dlmenu.js'></script>
+<script type='text/javascript' src='js/jquery.easing.js'></script>
+<script type='text/javascript' src='js/jquery.fancybox.pack.js'></script>
+<script type='text/javascript' src='js/jquery.fancybox-media.js'></script>
+<script type='text/javascript' src='js/jquery.fancybox-thumbs.js'></script>
+<script type='text/javascript' src='js/jquery.flexslider.js'></script>
+<script type='text/javascript' src='js/jquery.nivo.slider.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='js/gdlr-script.js'></script>
+<script type='text/javascript' src='js/masterslider.min.js'></script>

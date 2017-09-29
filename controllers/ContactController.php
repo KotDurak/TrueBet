@@ -17,7 +17,7 @@ class ContactController
             $userEmail = $_POST['your-email'];
             $userName = $_POST['your-name'];
             $userMessage = $_POST['your-message'];
-            $userSubject = $_POST['your-subject'];
+          //  $userSubject = $_POST['your-subject'];
 
            $errors = false;
 
@@ -33,9 +33,10 @@ class ContactController
                $properties = include_once (ROOT . '/config/properties.php');
                 $adminEmail = $properties['adminEmail'];
                 $userMessage = "Text: {$userMessage}. From {$userEmail}";
-                if($userSubject == '') {
+               /* if($userSubject == '') {
                     $userSubject = 'Сообщение от пользователя';
-                }
+                }*/
+               $userSubject = "Письмо клиента с сайта http://true-bet.ru";
 
                 $result = mail($adminEmail, $userSubject,$userMessage );
                 $result = true;

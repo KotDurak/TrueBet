@@ -8,7 +8,7 @@
 <!--<![endif]-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Прогнозы на спорт от bbet.pro &rsaquo; Войти</title>
+    <title>Прогнозы на спорт от true-bet.ru &rsaquo; Войти</title>
 
     <?php require_once  ROOT . '/views/layouts/login_links.php';?>
 

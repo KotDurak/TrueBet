@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Прогнозы на спорт от bbet.pro &rsaquo; Регистрационная форма</title>
+    <title>Прогнозы на спорт от true-bet,ru &rsaquo; Регистрационная форма</title>
     <link rel='stylesheet' id='buttons-css'  href='/css/buttons.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='open-sans-css'  href='/css/Clatinext.css' media='all' />
     <link rel='stylesheet' id='dashicons-css'  href='/css/dashicons.min.css' type='text/css' media='all' />

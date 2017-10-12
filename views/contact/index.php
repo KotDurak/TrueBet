@@ -159,7 +159,7 @@
 
                                 </div>
                                 <?php endif; ?>
-                            </div></div><div class="four columns" ><div class="gdlr-item-title-wrapper gdlr-item pos-left "><div class="gdlr-item-title-head"><h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Напишите нам!</h3><div class="clear"></div></div></div><div class="gdlr-item gdlr-content-item"  style="margin-bottom: 60px;" ><p><i class="gdlr-icon icon-envelope" style="color: #353535; font-size: 15px; " ></i> <a href="/developing" target="_blank">Написать админу</a></p>
+                            </div></div><div class="four columns" ><div class="gdlr-item-title-wrapper gdlr-item pos-left "><div class="gdlr-item-title-head"><h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Напишите нам!</h3><div class="clear"></div></div></div><div class="gdlr-item gdlr-content-item"  style="margin-bottom: 60px;" ><p><i class="gdlr-icon icon-envelope" style="color: #353535; font-size: 15px; " ></i> <a href="/developing" target="_blank">support@stud-empire.org</a></p>
                             </div><div class="gdlr-item-title-wrapper gdlr-item pos-left "><div class="gdlr-item-title-head"><h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Следуйте за нами!</h3><div class="clear"></div></div></div><div class="gdlr-item gdlr-content-item" ><p><a href="https://vk.com/lifethesport"><img class="alignnone" style="width: 40px; height: 40px;" src="http://static.tumblr.com/wb5cvu9/FdEngz2o8/vk.png" alt="" width="128" height="128" /></a></p>
                             </div></div><div class="clear"></div></div></section></div>
 

@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
   'user/register' => 'user/register',
   'user/login' => 'user/login',
@@ -15,5 +15,13 @@ return array(
   'uslugi' => 'uslugi/index',
   'faq' => 'faq/index',
   'bk' => 'bk/index',
+
+    // Управление прогнозами:
+    'admin/product/create' => 'adminProduct/create',
+    'admin/product/update/([0-9]+)' => 'adminProduct/update/$1',
+    'admin/product/delete/([0-9]+)' => 'adminProduct/delete/$1',
+    'admin/product/page-([0-9]+)' => 'adminProduct/index/$1',
+    'admin/product' => 'adminProduct/index/1',
+    'admin' => 'admin/index',
   '' => 'site/index',
-);
+];

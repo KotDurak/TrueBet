@@ -1,5 +1,5 @@
 <?php
 
 return array (
-  'adminEmail' => 'support@stud-empire.org',
+  'adminEmail' => 'darkprokuror@yandex.ru',
 );

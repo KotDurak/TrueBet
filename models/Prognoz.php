@@ -52,4 +52,93 @@ class Prognoz
         return $row['count'];
     }
 
+    public static function deleteCategoryById($id)
+    {
+        $db = Db::getConnection();
+
+        $sql = 'DELETE FROM prognoz WHERE id = :id';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':id',$id,PDO::PARAM_INT);
+        return $result->execute();
+
+    }
+
+    public static function createPrognoz($options)
+    {
+        $db = Db::getConnection();
+
+        $sql = 'INSERT INTO prognoz '
+            . '(name,gb,date,description,coefficent)'
+             .'VALUES'
+            .'(:name,:gb,:date,:description,:coefficent)';
+
+        $result = $db->prepare($sql);
+
+        $result->bindParam(':name',$options['name'],PDO::PARAM_STR);
+        $result->bindParam(':gb', $options['gb'],PDO::PARAM_INT);
+        $result->bindParam(':date',$options['date'],PDO::PARAM_STR);
+        $result->bindParam(':description',$options['description'],PDO::PARAM_STR);
+        $result->bindParam(':coefficent',$options['coefficent'],PDO::PARAM_STR);
+
+        if($result->execute()){
+            return $db->lastInsertId();
+        }
+        return 0;
+
+    }
+
+    public static function updatePrognozById($id,$options)
+    {
+        $db = Db::getConnection();
+
+        $sql = "UPDATE prognoz 
+                SET  
+                    name = :name,
+                    gb = :gb, 
+                    date =:date,
+                    description = :description,
+                    coefficent = :coefficent
+                WHERE id = :id";
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':id',$id,PDO::PARAM_INT);
+        $result->bindParam(':gb',$options['gb'],PDO::PARAM_INT);
+        $result->bindParam(':name',$options['name'],PDO::PARAM_STR);
+        $result->bindPAram(':date',$options['date'],PDO::PARAM_STR);
+        $result->bindParam(':description',$options['description'],PDO::PARAM_STR);
+        $result->bindParam(':coefficent',$options['coefficent'], PDO::PARAM_STR);
+        return $result->execute();
+    }
+
+    public static function getPrognozById($id)
+    {
+        $db = Db::getConnection();
+
+        $sql = 'SELECT * FROM prognoz WHERE id = :id';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':id',$id,PDO::PARAM_INT);
+
+        $result->setFetchMode(PDO::FETCH_ASSOC);
+        $result->execute();
+
+        return $result->fetch();
+    }
+
+    public static function getImage($id)
+    {
+        $noImage = 'no-image.png';
+
+        $path = '/uploads/itemsimg/';
+
+        $pathToPrognozImage = $path . $id . '.jpg';
+
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].$pathToPrognozImage)){
+            return $pathToPrognozImage;
+        }
+
+        return $path . $noImage;
+    }
+
 }

@@ -15,7 +15,7 @@
     <meta name="webmoney" content="F924EC15-5DA3-41DD-A610-9A472728E94F"/>
 
     <!-- All in One SEO Pack 2.2.7.1 by Michael Torbert of Semper Fi Web Design[404,454] -->
-    <link rel="canonical" href="http://bbet.pro/faq" />
+<!--    <link rel="canonical" href="http://bbet.pro/faq" />-->
     <!-- /all in one seo pack -->
     <link rel="alternate" type="application/rss+xml" title="Прогнозы на спорт от bbet.pro &raquo; Лента" href="http://bbet.pro/feed" />
     <link rel="alternate" type="application/rss+xml" title="Прогнозы на спорт от bbet.pro &raquo; Лента комментариев" href="http://bbet.pro/comments/feed" />

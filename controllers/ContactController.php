@@ -29,6 +29,18 @@ class ContactController
                $errors[] = 'Некорректное имя';
            }
 
+            if(isset($_POST['g-recaptcha-response'])  && $_POST['g-recaptcha-response']){
+                $secret = '6Ldu9DQUAAAAAOeOmbmAVmOBpqBLDKtXJo0gb3JA';
+                $ip = $_SERVER['REMOTE_ADDR'];
+                $response = $_POST['g-recaptcha-response'];
+                $rsp = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$ip");
+                $arr = json_decode($rsp, true);
+
+
+            } else {
+                $errors[] = 'Подтвердите что вы не робот';
+            }
+
            if($errors == false) {
                $properties = include_once (ROOT . '/config/properties.php');
                 $adminEmail = $properties['adminEmail'];

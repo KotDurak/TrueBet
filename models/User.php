@@ -71,9 +71,9 @@ class User
         $subject = "[Прогнозы на спорт от true-bet.ru] Ваше имя пользователя и пароль";
         $headers = "Content-type: text/html; charset=utf-8\r\n";
 
-        $message = " Имя пользователя: {$name}  <br>
+            $message = " Имя пользователя: {$name}  <br>
                      Пароль: {$password}
-                       <br> <a href='http://truebet'>truebet</a>";
+                       <br> <a href='http://true-bet.ru/user/login'>truebet</a>";
 
 
         $result = mail($email, $subject,$message,$headers);
@@ -97,6 +97,31 @@ class User
         self::sendPasswordToUser($name, $email, $password);
 
         return $result->execute();
+
+    }
+
+    public static function recovery($email)
+    {
+        $password = self::setPassword();
+        $db = Db::getConnection();
+
+        $sql  = 'UPDATE user SET password = :password WHERE email = :email';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':email',$email,PDO::PARAM_STR);
+        $result->bindParam(':password',$password,PDO::PARAM_STR);
+        $done =  $result->execute();
+
+        $sql = 'SELECT `name` FROM user WHERE email = :email';
+        $result = $db->prepare($sql);
+        $result->bindParam(':email', $email,PDO::PARAM_STR);
+        $result->execute();
+        $userData =  $result->fetch();
+        $name = $userData['name'];
+
+        self::sendPasswordToUser($name, $email,$password);
+
+        return $done;
 
     }
 

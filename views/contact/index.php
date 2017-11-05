@@ -60,6 +60,7 @@
         ga('send', 'pageview');
 
     </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 
@@ -74,7 +75,7 @@
                 <!-- logo -->
                 <div class="gdlr-logo">
                     <a href="http://bbet.pro" >
-                        <img src="/uploads/tbet.png" alt=""  />
+                        <img src="/uploads/logo.png" alt=""  />
                     </a>
                     <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation" ><button class="dl-trigger">Open Menu</button><ul id="menu-glavnoe-menyu" class="dl-menu gdlr-main-mobile-menu"><li id="menu-item-3945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3945"><a href="/">Главная</a></li>
                             <li id="menu-item-4869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4869"><a href="/livechat">Live &#8212; Марафон</a></li>
@@ -152,8 +153,10 @@
                                             <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span> </p>
                                         <p>Сообщение<br />
                                             <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+                                        <div class="g-recaptcha" data-sitekey="6Ldu9DQUAAAAAMWToe4pW5ePvAQ8FQvAVf9nhQq4"></div>
                                         <p><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit" name="submit"/></p>
-                                        <div class="wpcf7-response-output wpcf7-display-none"></div></form>
+                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                    </form>
 
 
 

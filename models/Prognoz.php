@@ -141,4 +141,29 @@ class Prognoz
         return $path . $noImage;
     }
 
+    public static function getNumberPrognoz($number = 5)
+    {
+        $db = Db::getConnection();
+        $sql = 'SELECT * FROM prognoz ORDER  BY id DESC LIMIT :limit';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':limit',$number, PDO::PARAM_INT);
+
+        $result->execute();
+        $i = 0;
+        $prognozes = array();
+
+        while($row = $result->fetch()){
+            $prognozes[$i]['id'] = $row['id'];
+            $prognozes[$i]['name'] = $row['name'];
+            $prognozes[$i]['coefficent'] = $row['coefficent'];
+            $prognozes[$i]['gb'] = $row['gb'];
+            $prognozes[$i]['date'] = $row['date'];
+            $prognozes[$i]['description'] = $row['description'];
+            $i++;
+        }
+
+        return $prognozes;
+    }
+
 }

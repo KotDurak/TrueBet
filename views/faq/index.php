@@ -78,8 +78,8 @@
             <div class="gdlr-header-container container wide-menu-custom">
                 <!-- logo -->
                 <div class="gdlr-logo">
-                    <a href="http://bbet.pro" >
-                        <img src="/uploads/tbet.png" alt=""  />
+                    <a href="/" >
+                        <img src="/uploads/logo.png" alt=""  />
                     </a>
                     <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation" ><button class="dl-trigger">Open Menu</button><ul id="menu-glavnoe-menyu" class="dl-menu gdlr-main-mobile-menu"><li id="menu-item-3945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3945"><a href="/">Главная</a></li>
                             <li id="menu-item-4869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4869"><a href="/livechat">Live &#8212; Марафон</a></li>
@@ -124,13 +124,13 @@
             <!-- Above Sidebar Section-->
 
             <!-- Sidebar With Content Section-->
-            <div class="with-sidebar-wrapper"><section id="content-section-1" ><div class="section-container container"><div class="eight columns" ><div class="gdlr-item-title-wrapper gdlr-item pos-left "><div class="gdlr-item-title-head"><h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Вопрос - ответ</h3><div class="clear"></div></div></div><div class="gdlr-item gdlr-accordion-item style-1"  ><div class="accordion-tab" ><h4 class="accordion-title" ><i class="icon-plus" ></i><span>Как купить подписку?</span></h4><div class="accordion-content"><p>1. Для покупки подписки перейдите в раздел <a href='/developing'>true-bet.pro/pokupka</a> </p>
+            <div class="with-sidebar-wrapper"><section id="content-section-1" ><div class="section-container container"><div class="eight columns" ><div class="gdlr-item-title-wrapper gdlr-item pos-left "><div class="gdlr-item-title-head"><h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Вопрос - ответ</h3><div class="clear"></div></div></div><div class="gdlr-item gdlr-accordion-item style-1"  ><div class="accordion-tab" ><h4 class="accordion-title" ><i class="fa fa-plus" ></i><span>Как купить подписку?</span></h4><div class="accordion-content"><p>1. Для покупки подписки перейдите в раздел <a href='/developing'>true-bet.pro/pokupka</a> </p>
                                         <p>2. Выберите срок подписки и удобную для Вас платежную систему</p>
                                         <p>3.  После оплаты прогнозы будут доступны в разделе  <a href='/prognoz'>true-bet.pro/prognoz</a></p>
-                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="icon-plus" ></i><span>Что получает обладатель подписки BBET?</span></h4><div class="accordion-content"><p>Доступ к разделу платных прогнозов с высокой проходимостью</p>
-                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="icon-plus" ></i><span>Где делать ставки?</span></h4><div class="accordion-content"><p>Для наших пользователей мы собрали лучшие бк, смотрите их в разделе: <a href='/bk'>true-bet/bk</a></p>
-                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="icon-plus" ></i><span>Есть ли у Вас бесплатные прогнозы?</span></h4><div class="accordion-content"><p>Ежедневно мы публикуем бесплатные прогнозы в сообществе <a href='https://vk.com/lifethesport'>vk.com/lifethesport</a></p>
-                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="icon-plus" ></i><span>Какой коэффициент у платных прогнозов?</span></h4><div class="accordion-content"><p>Мы не гонимся за высокими коэффициентами и не обещаем Вам 100% проходимости, мы хотим работать честно и прозрачно. Коэффициент платного прогноза около 2х, а проходимость около 80%</p>
+                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="fa fa-plus" ></i><span>Что получает обладатель подписки true-bet.ru?</span></h4><div class="accordion-content"><p>Доступ к разделу платных прогнозов с высокой проходимостью</p>
+                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="fa fa-plus" ></i><span>Где делать ставки?</span></h4><div class="accordion-content"><p>Для наших пользователей мы собрали лучшие бк, смотрите их в разделе: <a href='/bk'>true-bet/bk</a></p>
+                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="fa fa-plus" ></i><span>Есть ли у Вас бесплатные прогнозы?</span></h4><div class="accordion-content"><p>Ежедневно мы публикуем бесплатные прогнозы в сообществе <a href='https://vk.com/lifethesport'>vk.com/lifethesport</a></p>
+                                    </div></div><div class="accordion-tab" ><h4 class="accordion-title" ><i class="fa fa-plus" ></i><span>Какой коэффициент у платных прогнозов?</span></h4><div class="accordion-content"><p>Мы не гонимся за высокими коэффициентами и не обещаем Вам 100% проходимости, мы хотим работать честно и прозрачно. Коэффициент платного прогноза около 2х, а проходимость около 80%</p>
                                     </div></div></div></div><div class="four columns" ><div class="gdlr-styled-box-item-ux gdlr-ux" ><div class="gdlr-item gdlr-styled-box-item" ><div class="gdlr-styled-box-head-wrapper" ><div class="gdlr-styled-box-corner" style="border-bottom-color:#535353;" ></div><div class="gdlr-styled-box-head" style="background-color:#f5f5f5;" ></div></div><div class="gdlr-styled-box-body with-head" style="background-color:#f5f5f5; color: #dddddd; " >
 
 
@@ -776,7 +776,7 @@
                                     <div class="col-md-3 col-sm-6 center">
                                         <div class="plan most-popular">
                                             <div class="plan-ribbon-wrapper"><div class="plan-ribbon">Популярный</div></div>
-                                            <h3>НЕДЕЛЯ<em class="desc">Популярный тариф</em><span>5 000 руб.</span></h3>
+                                            <h3>НЕДЕЛЯ<em class="desc">Популярный тариф</em><span>3 500 руб.</span></h3>
                                             <ul>
                                                 <li> Покупая данный тариф Вы экономите: <br/><strong>2 000 рублей</strong></li>
 
@@ -788,9 +788,9 @@
                                     </div>
                                     <div class="col-md-3 col-sm-6">
                                         <div class="plan">
-                                            <h3>МЕСЯЦ<span>19 000 руб.</span></h3>
+                                            <h3>МЕСЯЦ<span>5 500 руб.</span></h3>
                                             <ul>
-                                                <li> Покупая данный тариф Вы экономите: <br/><strong>11 000 рублей</strong></li>
+                                                <li> Покупая данный тариф Вы экономите: <br/><strong>3 500 рублей</strong></li>
 
 
 
@@ -800,9 +800,9 @@
                                     </div>
                                     <div class="col-md-3 col-sm-6">
                                         <div class="plan">
-                                            <h3>3 МЕСЯЦА<span>50 000 руб.</span></h3>
+                                            <h3>3 МЕСЯЦА<span>7 999 руб.</span></h3>
                                             <ul>
-                                                <li> Покупая данный тариф Вы экономите: <br/><strong>40 000 рублей</strong></li>
+                                                <li> Покупая данный тариф Вы экономите: <br/><strong>5 001 рублей</strong></li>
 
 
 

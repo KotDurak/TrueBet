@@ -79,7 +79,7 @@
                 <!-- logo -->
                 <div class="gdlr-logo">
                     <a href="http://bbet.pro" >
-                        <img src="/uploads/tbet.png" alt=""  />
+                        <img src="/uploads/logo.png" alt=""  />
                     </a>
                     <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation" ><button class="dl-trigger">Open Menu</button><ul id="menu-glavnoe-menyu" class="dl-menu gdlr-main-mobile-menu"><li id="menu-item-3945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3945"><a href="/">Главная</a></li>
                             <li id="menu-item-4869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4869"><a href="/livechat">Live &#8212; Марафон</a></li>

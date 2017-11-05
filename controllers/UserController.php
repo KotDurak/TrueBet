@@ -84,6 +84,26 @@ class UserController
         require_once ROOT . '/views/user/login.php';
        return true;
     }
+    public  function actionRecovery()
+    {
+        $name = '';
+        $email = '';
+        $password = '';
+        $result = false;
+
+        if(isset($_POST['email'])){
+           $email = $_POST['email'];
+
+           if (!$email){
+               $errors = 'Введите адрес электронной почты';
+           }
+        }
+
+
+        User::recovery($email);
+        require_once ROOT . '/views/develop/index.php';
+        return true;
+    }
 
     public function actionLogout()
     {

@@ -96,7 +96,7 @@
                 <!-- logo -->
                 <div class="gdlr-logo">
                     <a href="/" >
-                        <img src="/uploads/tbet.png" alt=""  />
+                        <img src="/uploads/logo.png" alt=""  />
                     </a>
                     <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation" ><button class="dl-trigger">Open Menu</button><ul id="menu-glavnoe-menyu" class="dl-menu gdlr-main-mobile-menu"><li id="menu-item-3945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3945"><a href="/">Главная</a></li>
                             <li id="menu-item-4869" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4868 current_page_item menu-item-4869"><a href="/livechat">Live &#8212; Марафон</a></li>
@@ -147,9 +147,31 @@
                     <!-- kychka-web -->
                     <center><h2>У Вас нет доступа к LIVE - Марафону.</h2>
                         <p>
-                            <a href="/developing">
-                                <input style="background-color: #363533;" type="submit" value="Купить доступ к LIVE - Марафону">
-                            </a>
+<!--                            <a href="/developing">-->
+<!--                                <input style="background-color: #363533;" type="submit" value="Купить доступ к LIVE - Марафону">-->
+<!--                            </a>-->
+
+                        <center>
+                            <? if (empty($_SESSION['user'])) { ?>
+                                <h4>Эта страница доступна только <a href="/user/register">зарегистрированным</a>
+                                    пользователям.</h4><br><br>
+                                <a class="customButton" href="/user/register">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspИЛИ
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                <a class="customButton" href="/user/login"> ВОЙТИ</a>
+                            <? } else { ?>
+                                <form method="POST" action="/continue-payment">
+                                    <select required="" name="time" style="height: 50px;font-size: 16pt;padding: 5px;background-color: #F5F5F5;">
+                                        <option value="1">Начать марафон - 1 000 руб.</option>
+                                        <option value="7">Неделя (7 суток) - 3 500 руб.</option>
+                                        <option value="30">Месяц (30 суток) - 5 500 руб.</option>
+                                        <option value="90">3 месяца (90 суток) - 7 999 руб.</option>
+                                    </select><br><br>
+                                    <input type="hidden" name="subscr_type" value="regular">
+                                    <input type="submit" name="submit-time" value="Купить доступ к LIVE - Марафону">
+                                </form>
+                            <? } ?>
+                        </center>
                         </p>
                     </center><!-- kychka-web -->
 

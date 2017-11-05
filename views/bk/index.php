@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale = 1.0" />
-    <title>Обзор букмекерских контор | Прогнозы на спорт от bbet.pro</title>
+    <title>Обзор букмекерских контор | Прогнозы на спорт от true-bet.ru</title>
     <link rel="pingback" href="http://bbet.pro/xmlrpc.php" />
     <link rel="shortcut icon" href="http://www.bbet.pro/wp-content/uploads/2015/f.png" type="image/x-icon">
     <meta name="webmoney" content="F924EC15-5DA3-41DD-A610-9A472728E94F"/>
@@ -57,7 +57,7 @@
         ga('send', 'pageview');
 
     </script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 
 <body class="page page-id-4019 page-template-default _masterslider _msp_version_2.14.2">
@@ -117,6 +117,133 @@
 
             <!-- Sidebar With Content Section-->
 
+            <table class="table-bordered table-striped table">
+                <tr>
+                    <th>Контора</th>
+                    <th>Рейтинг</th>
+                    <th>Сайт</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://bookmaker-ratings.ru/review/obzor-bukmekerskoy-kontory-pari-match/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2016/07/LigaStavok_RB.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>5/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.ligastavok.ru/freebet?ls=Income%20Access;a_538b_152c_" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://bookmaker-ratings.ru/review/obzor-bukmekerskoy-kontory-pari-match/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2016/12/FC3F2D60B0FB6DD747C4780868B9EC8FA50A04C74440A28442-pimgpsh_fullsize_distr.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>5/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.fonbet.ru/?partner=p14762p74225p1d98&subid=adwise_1210_12151&utm_medium=click&utm_campaign=10671&utm_source=12151&utm_content=3356#!/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://bookmaker-ratings.ru/review/obzor-bukmekerskoy-kontory-pari-match/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2016/07/1hstavka-wbg1.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://1xstavka.ru/?tag=s_21603m_1341c_" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://bookmaker-ratings.ru/review/obzor-bukmekerskoy-kontory-pari-match/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2014/12/header_logo_en.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.marathonbet.ru/su/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://bookmaker-ratings.ru/review/obzor-bukmekerskoy-kontory-pari-match/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2014/12/parimatch-logo-156-1.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.parimatch.ru/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://betcity.ru/ru/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2014/12/betcity.jpg" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://betcity.ru/ru/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://betmaster9.com/-/welcome">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2016/12/betmaster-white-bg.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://betmaster9.com/-/welcome" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://www.fonbet.ru/#!/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2014/12/fonbet-w-bg.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.fonbet.ru/#!/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://www.leon.ru/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2014/12/leonclear.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.leon.ru/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title">
+                            <a target="_blank" href="https://www.21bet.co.uk/">
+                                <img src="https://bookmaker-ratings.ru/wp-content/uploads/2017/10/21.png" alt="Pari Match">                            </a>
+                        </div>
+                    </td>
+                    <td>4/5</td>
+                    <td>
+                        <a class="btn btn-success" href="https://www.21bet.co.uk/" target="_blank">Перейти на сайт</a>
+                    </td>
+                </tr>
+            </table>
 
             <!-- Below Sidebar Section-->
 
@@ -174,7 +301,7 @@
 
                     © Все права защищены				</div>
                 <div class="copyright-right">
-                    www.bbet.pro  2016 г.				</div>
+                   true-bet.ru				</div>
                 <div class="clear"></div>
             </div>
         </div>
